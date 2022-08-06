@@ -1,3 +1,4 @@
 import todoStore from "./todoStore"
+import darkmodeStore from "./darkmodeStore"
 
-export { todoStore }
+export { todoStore, darkmodeStore }

@@ -1,6 +1,6 @@
 import React, { useRef } from "react"
 import moment from "moment"
-import { Button, Card } from "../components"
+import { Button, Card, Darkmode } from "../components"
 import { todoStore } from "../stores"
 
 const Home = () => {
@@ -20,6 +20,7 @@ const Home = () => {
     <section>
       <div className="row">
         <h2>Todo App with Zustand</h2>
+        <Darkmode />
         <div className="col-4">
           <input type="text" name="" placeholder="Add Todo" ref={inputRef} />
         </div>
